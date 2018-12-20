@@ -62,7 +62,7 @@ class ReactionTimerGridView {
     }
   }
 
-  handleActiveCellClick() {
+  handleActiveCellClick(event) {
     // クリックしたセルのエレメント（ID）を取得し、次処理の引数として渡す
     const activeCellPosition = event.target.id;
     // this.callbacks.handleActiveCellSelected();
